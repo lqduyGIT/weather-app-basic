@@ -13,9 +13,11 @@ Dữ liệu thời tiết được lấy từ OpenWeather API qua Cloudflare Wor
 🔗 Demo: https://lqduygit.github.io/weather-app-basic/
 
 Search interface:
+
 ![image](https://github.com/user-attachments/assets/88371cca-e128-443f-8f0a-2471c2135762)
 
 Results interface:
+
 ![image](https://github.com/user-attachments/assets/a4b3015b-158d-4dfe-922b-0a238684e6e2)
 
 /structure weather-app
