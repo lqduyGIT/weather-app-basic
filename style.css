@@ -14,9 +14,9 @@ body {
   max-width: 470px;
   background: linear-gradient(135deg, #00c3fe, #5b548a);
   color: #fff;
-  margin: 100px auto 0;
-  border-radius: 20px;
-  padding: 40px 35px;
+  margin: 50px auto 0;
+  border-radius: 15px;
+  padding: 30px 25px;
   text-align: center;
 }
 
@@ -32,12 +32,12 @@ body {
   outline: 0;
   background-color: #ebfffc;
   color: #555;
-  padding: 10px 25px;
-  height: 60px;
-  border-radius: 30px;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 25px;
   flex: 1;
-  margin-right: 16px;
-  font-size: 18px;
+  margin-right: 12px;
+  font-size: 16px;
 }
 
 .card .card__search button {
@@ -45,26 +45,29 @@ body {
   outline: 0;
   background-color: #ebfffc;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card .card__search button i {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .card .card__weather {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .card .card__weather h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 500;
 }
 
 .card .card__weather h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 400;
   margin-top: -10px;
 }
@@ -73,9 +76,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  margin-top: 50px;
+  padding: 0 15px;
+  margin-top: 40px;
 }
+
 .card .card__weather .weather__details .weather__detail--col {
   display: flex;
   align-items: center;
@@ -83,13 +87,14 @@ body {
 }
 
 .card .card__weather .weather__details .weather__detail--col i {
-  font-size: 50px;
-  margin-right: 10px;
+  font-size: 40px;
+  margin-right: 8px;
 }
+
 .card .card__weather .weather__details .weather__detail--col .humidity,
 .card .card__weather .weather__details .weather__detail--col .wind {
-  font-size: 28px;
-  margin-top: -6px;
+  font-size: 24px;
+  margin-top: -4px;
 }
 
 .card__weather {
@@ -104,80 +109,139 @@ body {
   display: none;
 }
 
+/*Responsive cho màn hình 430px */
 @media only screen and (max-width: 430px) {
   .card {
-    width: 100%;
-  }
-  .card .card__search {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 95%;
+    padding: 28px 22px;
+    border-radius: 14px;
   }
 
   .card .card__search input {
-    border: 0;
-    outline: 0;
-    background-color: #ebfffc;
-    color: #555;
-    padding: 10px 25px;
-    height: 50px;
-    border-radius: 30px;
-    flex: 1;
-    margin-right: 10;
-    font-size: 18px;
+    height: 48px;
+    font-size: 15px;
   }
 
   .card .card__search button {
-    border: 0;
-    outline: 0;
-    background-color: #ebfffc;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
+    width: 48px;
+    height: 48px;
   }
 
   .card .card__search button i {
+    font-size: 21px;
+  }
+
+  .card .card__weather h1 {
+    font-size: 55px;
+  }
+
+  .card .card__weather h2 {
+    font-size: 32px;
+  }
+
+  .card .card__weather .weather__details {
+    margin-top: 35px;
+    padding: 0 12px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col i {
+    font-size: 38px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col .humidity,
+  .card .card__weather .weather__details .weather__detail--col .wind {
     font-size: 22px;
   }
 }
+
+/*Responsive cho màn hình 375px */
 @media only screen and (max-width: 375px) {
   .card {
-    width: 100%;
-  }
-  .card .card__search {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 98%;
+    padding: 20px 15px;
+    border-radius: 10px;
   }
 
   .card .card__search input {
-    border: 0;
-    outline: 0;
-    background-color: #ebfffc;
-    color: #555;
-    padding: 10px 5px 10px 15px;
     height: 40px;
-    border-radius: 30px;
-    flex: 1;
-    margin-right: 10;
-    font-size: 18px;
+    padding: 8px 15px;
+    font-size: 13px;
   }
 
   .card .card__search button {
-    border: 0;
-    outline: 0;
-    background-color: #ebfffc;
-    border-radius: 50%;
     width: 40px;
     height: 40px;
-    cursor: pointer;
-    flex: 1;
   }
 
   .card .card__search button i {
+    font-size: 18px;
+  }
+
+  .card .card__weather h1 {
+    font-size: 45px;
+  }
+
+  .card .card__weather h2 {
+    font-size: 25px;
+  }
+
+  .card .card__weather .weather__details {
+    margin-top: 25px;
+    padding: 0 5px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col i {
+    font-size: 30px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col .humidity,
+  .card .card__weather .weather__details .weather__detail--col .wind {
+    font-size: 18px;
+  }
+}
+
+/*Responsive cho màn hình nhỏ hơn 320px */
+@media only screen and (max-width: 320px) {
+  .card {
+    width: 98%;
+    padding: 18px 12px;
+    border-radius: 8px;
+  }
+
+  .card .card__search input {
+    height: 35px;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .card .card__search button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .card .card__search button i {
+    font-size: 16px;
+  }
+
+  .card .card__weather h1 {
+    font-size: 40px;
+  }
+
+  .card .card__weather h2 {
     font-size: 22px;
+  }
+
+  .card .card__weather .weather__details {
+    margin-top: 20px;
+    padding: 0 5px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col i {
+    font-size: 28px;
+  }
+
+  .card .card__weather .weather__details .weather__detail--col .humidity,
+  .card .card__weather .weather__details .weather__detail--col .wind {
+    font-size: 16px;
   }
 }
