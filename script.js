@@ -7,6 +7,7 @@ const weatherIcon = document.querySelector(".weather-icon");
 async function checkWeather(city) {
   // const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
   const response = await fetch(`${apiUrl}?city=${city}`);
+
   if (response.status == 404) {
     //event when you input city in text error -> open card
     document.querySelector(".card__error").style.display = "block";
