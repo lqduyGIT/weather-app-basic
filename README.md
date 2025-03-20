@@ -1,13 +1,14 @@
 🌤️ Weather App Basic
 Ứng dụng cho phép nhập tên thành phố để xem thời tiết theo thời gian thực. Dữ liệu lấy từ OpenWeather API qua Cloudflare Workers.
 
-⚙️ Cách hoạt động
-Nhập tên thành phố vào ô tìm kiếm.
-Nhấn Enter hoặc nút 🔍 để tìm kiếm.
-Kết quả thời tiết sẽ hiển thị bao gồm:
-Nhiệt độ hiện tại 🌡️
-Độ ẩm 💧
-Tốc độ gió 🌬️
+⚙️ Cách hoạt động:
+
+- Nhập tên thành phố vào ô tìm kiếm.
+- Nhấn Enter hoặc nút 🔍 để tìm kiếm.
+- Kết quả thời tiết sẽ hiển thị bao gồm:
+- Nhiệt độ hiện tại 🌡️
+- Độ ẩm 💧
+- Tốc độ gió 🌬️
 Dữ liệu thời tiết được lấy từ OpenWeather API qua Cloudflare Workers.
 
 🔗 Demo: https://lqduygit.github.io/weather-app-basic/
