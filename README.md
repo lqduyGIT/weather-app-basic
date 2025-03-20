@@ -2,7 +2,6 @@
 Ứng dụng cho phép nhập tên thành phố để xem thời tiết theo thời gian thực. Dữ liệu lấy từ OpenWeather API qua Cloudflare Workers.
 
 ⚙️ Cách hoạt động:
-
 - Nhập tên thành phố vào ô tìm kiếm.
 - Nhấn Enter hoặc nút 🔍 để tìm kiếm.
 - Kết quả thời tiết sẽ hiển thị bao gồm:
@@ -25,7 +24,7 @@ Results interface:
 │── style.css      # Định dạng giao diện  
 │── script.js      # Xử lý tìm kiếm thời tiết  
 
-🛠️ Công nghệ
-HTML, CSS, JS: Giao diện & logic
-Cloudflare Workers: Proxy API
-OpenWeather API: Lấy dữ liệu thời tiết
+🛠️ Công nghệ:
+- HTML, CSS, JS: Giao diện & logic
+- Cloudflare Workers: Proxy API
+- OpenWeather API: Lấy dữ liệu thời tiết
