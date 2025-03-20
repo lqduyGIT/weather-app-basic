@@ -1,4 +1,4 @@
-const apiUrl = "https://weather-app-basic.lqduy242.workers.dev/";
+const apiUrl = "https://weather-app-basic.lqduy242.workers.dev";
 
 const searchBox = document.querySelector(".card__search input");
 const searchBtn = document.querySelector(".card__search button");
