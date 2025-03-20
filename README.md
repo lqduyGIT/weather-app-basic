@@ -19,6 +19,7 @@ Results interface:
 ![image](https://github.com/user-attachments/assets/a4b3015b-158d-4dfe-922b-0a238684e6e2)
 
 /structure weather-app
+
 │── index.html     # Giao diện chính  
 │── style.css      # Định dạng giao diện  
 │── script.js      # Xử lý tìm kiếm thời tiết  
