@@ -1,6 +1,12 @@
 🌤️ Weather App Basic
 Ứng dụng cho phép nhập tên thành phố để xem thời tiết theo thời gian thực. Dữ liệu lấy từ OpenWeather API qua Cloudflare Workers.
 
+Mình đang học và làm quen với JavaScript, tất cả code trong này được mình làm lại từ youtube, đã thêm một vài thứ theo ý riêng của mình 
+
+Link youtube: https://www.youtube.com/@GreatStackDev
+
+Tính Năng 🚀
+
 ⚙️ Cách hoạt động:
 - Nhập tên thành phố vào ô tìm kiếm.
 - Nhấn Enter hoặc nút 🔍 để tìm kiếm.
